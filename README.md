@@ -2,6 +2,14 @@
 
 Transform Azure certification cram session videos into complete, deployable hands-on lab environments.
 
+## Included Lab Prompts
+
+| Prompt | Focus Area | Target Domains |
+|--------|------------|----------------|
+| [`certforge-prompt.md`](certforge-prompt.md) | Core CertForge meta-prompt: converts a YouTube cram transcript into a full IaC + study guide lab project | AZ-104, AZ-305, AI-102, AZ-204, AZ-500, AZ-700 |
+| [`prompts/aoai-apim-lab-prompt.md`](prompts/aoai-apim-lab-prompt.md) | Azure API Management with Generative AI (token rate limiting, load balancing, semantic caching, prompt logging, Managed Identity) | AI-102, AZ-204, AZ-305 |
+| [`prompts/azure-private-endpoints-hybrid-dns-prompt.md`](prompts/azure-private-endpoints-hybrid-dns-prompt.md) | Azure Private Endpoints, Private DNS Zones, and Azure DNS Private Resolver hybrid forwarding | AZ-104, AZ-305, AZ-700 |
+
 ## Workflow
 
 1. **Generate a transcript** — run `yt2md.sh` against a YouTube cram session URL to produce a Markdown transcript
